@@ -69,7 +69,7 @@ i:    &a7 {type: http,     behavior: ipcidr,    interval: 86400}
 proxy-providers:
   Sub1:
     <<: *a1
-    url: https://api4.oceancloud.pro/api/3891b5ac758732f8fb7ec85c85a19958
+    url: https://api4.oceancloud.pro/api
     # URL后面填写格式: 直接填写你的机场Clash订阅[推荐此种方式，避免订阅泄露]
     path: ./proxy_providers/云海互联.yaml
     
